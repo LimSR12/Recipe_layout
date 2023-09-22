@@ -1,9 +1,24 @@
 @import 'tailwindcss/base'; 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
 @layer base {
    button{
       @apply border border-black rounded-xl px-5 py-1
    }
+}
+@font-face {
+   font-family: 'HakgyoansimWoojuR';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'NanumSquareNeo-Variable';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+
+*{
+   font-family: 'NanumSquareNeo-Variable';
 }

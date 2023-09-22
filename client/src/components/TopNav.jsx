@@ -23,7 +23,7 @@ const TopNav = () => {
                            sm:text-3xl 
                            lg:text-4xl 
                            px-2">
-                Wein's <span className="font-bold">요리교실</span>
+                LimSR <span className="font-bold">Bakery</span>
             </h1>
 
         <div className="hidden 
@@ -32,13 +32,13 @@ const TopNav = () => {
                         bg-gray-200 
                         rounded-full 
                         p-1 text-[14px]">
-            <p className="bg-orange-700 
+            {/* <p className="bg-orange-700 
                           text-white 
                           rounded-full 
                           text-bold">
                 FREE
-            </p>
-            <p className="p-2 text-bold">Delivery</p>
+            </p> */}
+            <p className="p-2 text-bold text-gray">Lecipe</p>
          </div>
        </div> 
 
@@ -58,8 +58,8 @@ const TopNav = () => {
                   placeholder="레시피검색"
             />
        </div>
-       <button className="bg-orange-700 
-                          text-white hidden 
+       <button className="bg-amber-500 
+                          text-white hidden border-0
                           md:flex items-center py-2 rounded-full">
           <BsFillCartFill size={20} /> Cart
        </button>
@@ -74,7 +74,7 @@ const TopNav = () => {
        >
         <AiOutlineClose onClick={()=>setSideNav(!sideNav)} size={25}
                         className='absolute right-4 top-4 cursor-pointer'/> 
-        <h2 className="text-2xl p-4">Wein's<span className="text-orange-700 font-bold">요리교실</span></h2> 
+        <h2 className="text-2xl p-4">LimSR<span className="text-amber-500 font-bold"> Bakery</span></h2> 
         <nav>
            <ul className="flex flex-col p-4 text-gray-900">
                <li className="text-xl py-4 flex">
